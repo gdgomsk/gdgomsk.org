@@ -1,0 +1,69 @@
+.clearfix {
+    clear: both;
+    width: 100%;
+}
+
+.team-member {
+    font-family: Tahoma, Arial, serif;
+    margin-bottom: 30px;
+}
+
+.team-member a {
+    font-size: 14px;
+    color: #4d8bc3;
+    text-decoration: underline;
+}
+
+.team-member a:hover {
+    color: #696969;
+}
+
+.team-member .photo {
+    float: left;
+    padding: 5px;
+    box-shadow: 0 0 1px #000;
+    margin-right: 20px;
+}
+
+.team-member .photo img {
+    width: 150px;
+    height: auto;
+}
+
+.team-member .member-content {
+    float: left;
+    width: 500px;
+}
+
+.team-member .name {
+    display: block;
+    font-size: 20px;
+    padding-bottom: 5px;
+    color: #3D758B;
+}
+
+.team-member .position {
+    display: block;
+    font-size: 14px;
+    color: #808080;
+}
+
+.team-member .information {
+    font-size: 14px;
+}
+
+.team-member .links {
+    list-style: none none;
+    margin: 0;
+    padding: 0;
+}
+
+.team-member .links li {
+    padding: 0 10px;
+    border-right: 1px solid #6495ed;
+    display: inline-block;
+}
+
+.team-member .links li:last-child {
+    border: none;
+}
