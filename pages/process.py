@@ -1,42 +1,32 @@
 # -*- coding: utf-8 -*-
 
-from pynliner import Pynliner
 import sys
 import json
-from pprint import pprint
+from jinja2 import Template
+sys.path.append('./libs')
+from pynliner_encoded import Pynliner
 
 folder = sys.argv[1]
 if folder != '':
     template = open(folder + '/template.html', 'r').read()
     css = open(folder + '/style.css', 'r').read()
 
-    p = Pynliner()
-    p.from_string(template).with_cssString(css)
-    prerender = p.run()
-
     with open(folder + '/data.json') as data_file:
         data = json.load(data_file)
 
-    result = ""
+    template = Template(template)
+    template = template.render(data)
 
-    for item in data:
-        prerender = prerender.replace("{photo}", item["photo"])
-        prerender = prerender.replace("{name}", item["name"])
-        prerender = prerender.replace("{position}", item["position"])
-        prerender = prerender.replace("{information}", item["information"])
+    p = Pynliner()
+    p.from_string(template).with_cssString(css)
+    template = p.run()
 
-        links_block = ""
+    open(folder + '/index.html', 'w').write(template.encode('utf-8'))
 
-        for link in item["links"]:
-            links_block += "<li><a href='%(link)s'>%(title)s</a></li>" % {'link':link['link'], 'title':link['title']}
-
-        prerender = prerender.replace("{links}", links_block)
-        result += prerender
-
-    f = open(folder + '/index.html', 'w')
-    f.write(result.encode("utf-8"))
-
-    print "Generating complete"
+    print "Generating of %s template is complete" % folder
+    print "Please look through %s/index.html file" % folder
+else:
+    print "You need to specify a template name as a parameter"
 
 
 

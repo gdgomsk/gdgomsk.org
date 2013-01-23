@@ -1,14 +1,18 @@
+{% for member in members %}
 <div class="team-member">
     <div class="photo">
-        <img src="{photo}" alt="{name}">
+        <img src="{{ member.photo }}" alt="{{ member.name }}">
     </div>
     <div class="member-content">
-        <span class="name">{name}</span>
-        <span class="position">{position}</span>
-        <p class="information">{information}</p>
+        <span class="name">{{ member.name }}</span>
+        <span class="position">{{ member.position }}</span>
+        <p class="information">{{ member.information }}</p>
         <ul class="links">
-            {links}
+            {% for link in member.links %}
+            <li><a href="{{ link.url }}">{{ link.title }}</a>
+            {% endfor %}
         </ul>
     </div>
     <div class="clearfix"></div>
 </div>
+{% endfor %}

@@ -1,36 +1,38 @@
-[
-    {
-        "photo": "https://lh6.googleusercontent.com/-BEBRBDq6HRI/AAAAAAAAAAI/AAAAAAAABh4/dTQyfMOxyxA/s250-c-k/photo.jpg",
-        "name": "Андрей Кривко",
-        "position": "Участник Org.Team",
-        "information":"Участвую в Org.Team, потому что увлекаюсь технологиями Google и хочу помогать людям осваивать их людям, а также помогать в организации IT-мероприятий.",
-        "links": [
-            {
-                "title":"G+",
-                "link":"https://plus.google.com/u/0/108115125436087499196/posts"
-            },
-            {
-                "title":"Twitter",
-                "link":"twitter.com/jastkand"
-            }
-        ]
+{
+    "members": [
+        {
+            "photo": "https://lh6.googleusercontent.com/-BEBRBDq6HRI/AAAAAAAAAAI/AAAAAAAABh4/dTQyfMOxyxA/s250-c-k/photo.jpg",
+            "name": "Андрей Кривко",
+            "position": "Участник Org.Team",
+            "information":"Участвую в Org.Team, потому что увлекаюсь технологиями Google и хочу помогать людям осваивать их людям, а также помогать в организации IT-мероприятий.",
+            "links": [
+                {
+                    "title":"G+",
+                    "url":"https://plus.google.com/u/0/108115125436087499196/posts"
+                },
+                {
+                    "title":"Twitter",
+                    "url":"twitter.com/jastkand"
+                }
+            ]
 
-    },
-    {
-        "photo": "https://lh6.googleusercontent.com/-BEBRBDq6HRI/AAAAAAAAAAI/AAAAAAAABh4/dTQyfMOxyxA/s250-c-k/photo.jpg",
-        "name": "Андрей Кривко !",
-        "position": "Участник Org.Team",
-        "information":"Участвую в Org.Team, потому что увлекаюсь технологиями Google и хочу помогать людям осваивать их людям, а также помогать в организации IT-мероприятий.",
-        "links": [
-            {
-                "title":"G+",
-                "link":"https://plus.google.com/u/0/108115125436087499196/posts"
-            },
-            {
-                "title":"Twitter",
-                "link":"twitter.com/jastkand"
-            }
-        ]
+        },
+        {
+            "photo": "https://lh6.googleusercontent.com/-BEBRBDq6HRI/AAAAAAAAAAI/AAAAAAAABh4/dTQyfMOxyxA/s250-c-k/photo.jpg",
+            "name": "Андрей Кривко !",
+            "position": "Участник Org.Team",
+            "information":"Участвую в Org.Team, потому что увлекаюсь технологиями Google и хочу помогать людям осваивать их людям, а также помогать в организации IT-мероприятий.",
+            "links": [
+                {
+                    "title":"G+",
+                    "link":"https://plus.google.com/u/0/108115125436087499196/posts"
+                },
+                {
+                    "title":"Twitter",
+                    "link":"twitter.com/jastkand"
+                }
+            ]
 
-    }
-]
+        }
+    ]
+}
