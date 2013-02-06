@@ -8,11 +8,11 @@
             "links": [
                 {
                     "title":"G+",
-                    "link":"http://gplus.to/korovyansk"
+                    "url":"http://gplus.to/korovyansk"
                 },
                 {
                     "title":"About.me",
-                    "link":"http://about.me/korovyansk"
+                    "url":"http://about.me/korovyansk"
                 }
             ]
         },
@@ -24,15 +24,15 @@
             "links": [
                 {
                     "title":"G+",
-                    "link":"https://plus.google.com/110650159101065784429/posts"
+                    "url":"https://plus.google.com/110650159101065784429/posts"
                 },
                 {
                     "title":"Блог",
-                    "link":"http://zaleslaw.blogspot.ru/"
+                    "url":"http://zaleslaw.blogspot.ru/"
                 },
                 {
                     "title":"VK",
-                    "link":"http://vk.com/pan_kapustka1"
+                    "url":"http://vk.com/pan_kapustka1"
                 }
             ]
         },
@@ -44,19 +44,19 @@
             "links": [
                 {
                     "title":"G+",
-                    "link":"https://plus.google.com/105861465397561879621/posts"
+                    "url":"https://plus.google.com/105861465397561879621/posts"
                 },
                 {
                     "title":"Twitter",
-                    "link":"https://twitter.com/SerBeys"
+                    "url":"https://twitter.com/SerBeys"
                 },
                 {
                     "title":"VK",
-                    "link":"http://vk.com/serbeys"
+                    "url":"http://vk.com/serbeys"
                 },
                 {
                     "title":"Facebook",
-                    "link":"http://www.facebook.com/sbeisenov"
+                    "url":"http://www.facebook.com/sbeisenov"
                 }
             ]
         },
@@ -68,11 +68,11 @@
             "links": [
                 {
                     "title":"G+",
-                    "link":"https://plus.google.com/110048547693630070186/posts"
+                    "url":"https://plus.google.com/110048547693630070186/posts"
                 },
                 {
                     "title":"Twitter",
-                    "link":"http://vk.com/zak_dk"
+                    "url":"http://vk.com/zak_dk"
                 }
             ]
         },
