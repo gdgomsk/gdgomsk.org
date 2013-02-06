@@ -1,38 +1,100 @@
 {
     "members": [
         {
-            "photo": "https://lh6.googleusercontent.com/-BEBRBDq6HRI/AAAAAAAAAAI/AAAAAAAABh4/dTQyfMOxyxA/s250-c-k/photo.jpg",
-            "name": "Андрей Кривко",
-            "position": "Участник Org.Team",
-            "information":"Участвую в Org.Team, потому что увлекаюсь технологиями Google и хочу помогать людям осваивать их людям, а также помогать в организации IT-мероприятий.",
+            "photo": "https://dl.dropbox.com/u/4423440/AlexKorovyansky.png",
+            "name": "Алексей Коровянский",
+            "position": "Основатель GDG Omsk",
+            "information": "Во-первых, мне нравятся технологии Google, точнее те возможности, которые они бесплатно предаставляют \"людям, умеющим писать код\". Более того, к Android у меня большой профессиональный интерес.<br><br>Во-вторых, мне интересно общение. За время активной организаторской деятельности в GTUG/GDG Omsk мне удалось пообщаться с огромным кол-вом  талантливых людей из разных стран и городов мира. Это действительно бесценно!<br><br>В общем, для меня организаторская деятельность в GDG Omsk - это практически безграничное пространство для творчества и самореализации в рамках моих профессиональных и личных интересов!",
             "links": [
                 {
                     "title":"G+",
-                    "url":"https://plus.google.com/u/0/108115125436087499196/posts"
+                    "link":"http://gplus.to/korovyansk"
+                },
+                {
+                    "title":"About.me",
+                    "link":"http://about.me/korovyansk"
+                }
+            ]
+        },
+        {
+            "photo": "http://cs407026.userapi.com/v407026796/49bc/VQPdSUGyUaY.jpg",
+            "name": "Алексей Зиновьев",
+            "position": "Лидер",
+            "information":"Мне нравится организаторская работа, нести людям полезное, доброе, вечное. А Google предложил нам удачную модель, где любовь к его технологиям сопрягается с уникальными для Омска событиями.<br>Также, организаторская работа приносит мне новые знания, контакты, опыт, практику в английском языке.",
+            "links": [
+                {
+                    "title":"G+",
+                    "link":"https://plus.google.com/110650159101065784429/posts"
+                },
+                {
+                    "title":"Блог",
+                    "link":"http://zaleslaw.blogspot.ru/"
+                },
+                {
+                    "title":"VK",
+                    "link":"http://vk.com/pan_kapustka1"
+                }
+            ]
+        },
+        {
+            "photo": "http://cs407517.userapi.com/v407517763/44ab/Qv2g5-E0Bec.jpg",
+            "name": "Серик Бейсенов",
+            "position": "Завхоз",
+            "information":"Для саморелизации. Чтобы в Омске была IT-движуха. И просто интересно.",
+            "links": [
+                {
+                    "title":"G+",
+                    "link":"https://plus.google.com/105861465397561879621/posts"
                 },
                 {
                     "title":"Twitter",
-                    "url":"twitter.com/jastkand"
+                    "link":"https://twitter.com/SerBeys"
+                },
+                {
+                    "title":"VK",
+                    "link":"http://vk.com/serbeys"
+                },
+                {
+                    "title":"Facebook",
+                    "link":"http://www.facebook.com/sbeisenov"
                 }
             ]
-
+        },
+        {
+            "photo": "https://dl.dropbox.com/u/28491606/photo.jpg",
+            "name": "Константин Драволин",
+            "position": "Специалист по техническому обеспечению",
+            "information": "Я участвую в Org.Team потому, что мне нравится участвовать в развитии GDG Omsk, изучать и работать с новыми технологиями и общаться с интересными людьми.",
+            "links": [
+                {
+                    "title":"G+",
+                    "link":"https://plus.google.com/110048547693630070186/posts"
+                },
+                {
+                    "title":"Twitter",
+                    "link":"http://vk.com/zak_dk"
+                }
+            ]
         },
         {
             "photo": "https://lh6.googleusercontent.com/-BEBRBDq6HRI/AAAAAAAAAAI/AAAAAAAABh4/dTQyfMOxyxA/s250-c-k/photo.jpg",
-            "name": "Андрей Кривко !",
+            "name": "Андрей Кривко",
             "position": "Участник Org.Team",
-            "information":"Участвую в Org.Team, потому что увлекаюсь технологиями Google и хочу помогать людям осваивать их людям, а также помогать в организации IT-мероприятий.",
+            "information":"Участие в Org.Team для меня это, во-первых, бесценный опыт в организации и проведении IT-мероприятий различного уровня. Во-вторых, это отличная площадка для общения с интересными и талантливыми людьми.",
             "links": [
                 {
                     "title":"G+",
-                    "link":"https://plus.google.com/u/0/108115125436087499196/posts"
+                    "url":"https://plus.google.com/108115125436087499196/posts"
                 },
                 {
                     "title":"Twitter",
-                    "link":"twitter.com/jastkand"
+                    "url":"https://twitter.com/jastkand"
+                },
+                {
+                    "title":"VK",
+                    "url":"http://vk.com/jastkand"
                 }
             ]
-
         }
     ]
 }
