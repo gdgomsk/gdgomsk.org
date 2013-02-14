@@ -4,7 +4,9 @@
             "title" : "Ключевой доклад",
             "description" : "TBD",
             "auditorium" : "301",
-            "time" : "10:00 – 10:45"
+            "time" : "10:00 – 10:45",
+            "slides" : "https://docs.google.com/file/d/0BwXbHApLV1SSQU95R2o2N0J6SWc/edit?usp=sharing",
+            "video" : "http://www.youtube.com/watch?v=_wUif6q6ezI"
         },
         {
             "title" : "Android Quick Dive",
@@ -15,7 +17,9 @@
                 "name" : "Дмитрий Лукашев",
                 "photo" : "https://sites.google.com/a/gdgomsk.org/site/schedule/Dmitry%20Lukashev.jpg",
                 "info" : "Android разработчик в компании Yota. Живет в Санкт-Петербурге. До прихода в Yota в 2009 году работал в Motorola в течение шести лет, где начал работать с Android в конце 2007. В свободное время Дмитрий создал несколько проектов на Android. Среди них такое, как Amberfog."
-            }
+            },
+            "slides" : "https://docs.google.com/file/d/0BwXbHApLV1SSVXpkeFRpQXRkRzQ/edit?usp=sharing",
+            "video" : "http://www.youtube.com/watch?v=7iVDeU7y6V0"
         },
         {
             "title" : "Chrome Apps & Extensions. А оно нам надо?",
@@ -26,10 +30,12 @@
                 "name" : "Тимур Гаскаров",
                 "photo" : "https://sites.google.com/a/gdgomsk.org/site/schedule/Timur%20Gaskarov.jpg",
                 "info" : "Соорганизатор GDG Ufa.<br>Основатель сообщества Хром.РФ (<a href=\"http://my-chrome.ru/\">http://my-chrome.ru/</a>).<br>Ведущий участник (Top contributor) форума техподдержки Google Chrome."
-            }
+            },
+            "slides" : "https://docs.google.com/file/d/0BwXbHApLV1SSakJCSEhSb0xkbmM/edit?usp=sharing",
+            "video" : "http://www.youtube.com/watch?v=TOPMd4WYf5E"
         },
         {
-            "title" : "Монетизация проекта на примере, и как получать деньги от Google по-новому",
+            "title" : "Монетизация Android приложения",
             "description" : "В данном докладе будет представлена история успеха программы MySettings, будут описаны все способы монетизации, которые были испробованы, их плюсы и минусы. Также будет рассказано о том, как получать деньги от Google по новым правилам, вступившим с 1 октября. Данный доклад будет полезен как для начинающих, так и для опытных разработчиков.",
             "auditorium" : "301",
             "time" : "11:35 – 12:10",
@@ -37,7 +43,9 @@
                 "name" : "Максим Юдин",
                 "photo" : "https://sites.google.com/a/gdgomsk.org/site/schedule/Maxim%20Udin.jpeg",
                 "info" : "Ведущий разработчик мобильного приложения под платформу Android в компании Ozon.ru. Также разрабатываю собственные продукты под маркой JQ Soft. Имею опыт разработки под Android с 2007 года."
-            }
+            },
+            "slides" : "https://docs.google.com/file/d/0BwXbHApLV1SSMFk5cDFEakxnNTg/edit?usp=sharing",
+            "video" : "http://www.youtube.com/watch?v=FB4234V76Ts"
         },
         {
             "title" : "App Engine Quick Dive",
@@ -48,7 +56,8 @@
                 "name" : "Туран Рустамли",
                 "photo" : "https://sites.google.com/a/gdgomsk.org/site/schedule/Turan%20Rustamli.jpg",
                 "info" : "Участвовал в разработке множества передовых веб-приложений в Optimax Software (Великобритания), для разработки которых применялись такие технологии как Google App Engine, GWT, HTML5, Chrome Extension APIs, AngularJS и др. Участник GDG Baku, ко-огранизатор GDG Edinburgh. Подробнее: <a href=\"http://rustam.li\">http://rustam.li</a>"
-            }
+            },
+            "slides" : "https://docs.google.com/file/d/0BwXbHApLV1SSYXNDNzI1QTVoRTQ/edit?usp=sharing"
         },
         {
             "title" : "Using HTML5 to conquer every device in the world, from phones to TVs",
@@ -59,7 +68,9 @@
                 "name" : "Sylvain Zimmer",
                 "photo" : "https://sites.google.com/a/gdgomsk.org/site/schedule/Sylvain%20Zimmer.jpg",
                 "info" : "После того как в 2004 основал открытое музыкальное онлайн-сообщество Jamendo (<a href=\"http://www.jamendo.com\">http://www.jamendo.com</a>), где был CTO семь лет, переехал в Париж и занялся организацией таких эвентов, как TEDxParis, ParisHackers and dotJS. В настоящее время – сооснователь и CTO компании Joshfire, которая занимается предоставлением инструментов разработки кросс-девайс HTML5 apps."
-            }
+            },
+            "slides" : "https://docs.google.com/file/d/0BwXbHApLV1SSb2Y0Q2RETEVsQVk/edit?usp=sharing",
+            "video" : "http://www.youtube.com/watch?v=6kzDaGXNiwY"
         },
         {
             "title" : "Разработка API для моб. приложений на App Engine",
@@ -70,7 +81,8 @@
                 "name" : "Туран Рустамли",
                 "photo" : "https://sites.google.com/a/gdgomsk.org/site/schedule/Turan%20Rustamli.jpg",
                 "info" : "Участвовал в разработке множества передовых веб-приложений в Optimax Software (Великобритания), для разработки которых применялись такие технологии как Google App Engine, GWT, HTML5, Chrome Extension APIs, AngularJS и др. Участник GDG Baku, ко-огранизатор GDG Edinburgh. Подробнее: <a href=\"http://rustam.li\">http://rustam.li</a>"
-            }
+            },
+            "slides" : "https://docs.google.com/file/d/0BwXbHApLV1SSU2hkV0ZqRlFFMXM/edit?usp=sharing"
         },
         {
             "title" : "Подводные камни при разработке приложений для Google Chrome",
@@ -81,7 +93,9 @@
                 "name" : "Дмитрий Сорин",
                 "photo" : "https://sites.google.com/a/gdgomsk.org/site/schedule/Dmitry%20Sorin.jpg",
                 "info" : "JavaScript разработчик в компании Яндекс. Занимаюсь разработкой расширений для популярных браузеров."
-            }
+            },
+            "slides" : "https://docs.google.com/file/d/0BwXbHApLV1SSWEFBa0hWWDczX00/edit?usp=sharing",
+            "video" : "http://www.youtube.com/watch?v=g6VRYY1vXfI"
         },
         {
             "title" : "Android: Make Your App Social",
@@ -92,7 +106,9 @@
                 "name" : "Дмитрий Лукашев",
                 "photo" : "https://sites.google.com/a/gdgomsk.org/site/schedule/Dmitry%20Lukashev.jpg",
                 "info" : "Android разработчик в компании Yota. Живет в Санкт-Петербурге. До прихода в Yota в 2009 году работал в Motorola в течение шести лет, где начал работать с Android в конце 2007. В свободное время Дмитрий создал несколько проектов на Android. Среди них такое, как Amberfog."
-            }
+            },
+            "slides" : "https://docs.google.com/file/d/0BwXbHApLV1SSOUROWTR1OFAtbFE/edit?usp=sharing",
+            "video" : "http://www.youtube.com/watch?v=iljrc5gIa64"
         },
         {
             "title" : "Google Apps Script для бизнеса",
@@ -103,13 +119,15 @@
                 "name" : "Алексей Исаченко",
                 "photo" : "https://sites.google.com/a/gdgomsk.org/site/schedule/Alexey%20Isachenko.jpg",
                 "info" : "Координатор московской группы GDG. Является CIO в промышленной компании и специализируется на внедрении облачных технологий Google в enterprise последние два года."
-            }
+            },
+            "slides" : "https://docs.google.com/file/d/0BwXbHApLV1SSWjZlTjdJWWRVOEE/edit?usp=sharing"
         },
         {
             "title" : "Ignite",
             "description" : "У вас есть замечательная возможность не только посетить это замечательное событие, но и стать докладчиком — в программу конференции включена серия докладов Ignite.<br><br>Ignite — это новый и очень интересный формат докладов, который еще никогда не проводился в Омске: несколько выступлений за небольшой промежуток времени (одно выступление 5-10 минут). Узнать подробней, что такое Ignite можно посмотрев видео с Google I/O <a href=\"https://www.google.com/events/io/2010/sessions/ignite-google-io.html\">тут</a> или <a href=\"https://www.youtube.com/watch?v=u2pnD2ZsEYs\">тут</a>, или почитать статью в <a href=\"http://en.wikipedia.org/wiki/Ignite_(event)\">Wikipedia</a>.<br><br>Если вы хотите поделиться своей историей успеха, интересной идеей, найти людей, которым близки ваши мысли или просто рассказать о том, как вы нетривиально решили какую-либо задачу, обязательно приходите на конференцию и участвуйте в Ignite.<br><br>Единственные требования к докладу: это его краткость, интересность и связь с технологиями Google.<br><br>Ждем писем с вашими заявками на почтовый ящик: <a href=\"mailto:devfest12@gdgomsk.org\">devfest12@gdgomsk.org</a>.<br><br>Мы вам обязательно поможем подготовить замечательный доклад.",
             "auditorium" : "301",
-            "time" : "15:10 – 16:10"
+            "time" : "15:10 – 16:10",
+            "slides" : "https://docs.google.com/folder/d/0BwXbHApLV1SSV04yZjBtT0JFQms/edit?usp=sharing"
         },
         {
             "title" : "Office Hours",
