@@ -1,0 +1,120 @@
+{
+    "reports" : [
+        {
+            "title" : "Ключевой доклад",
+            "description" : "TBD",
+            "auditorium" : "301",
+            "time" : "10:00 – 10:45"
+        },
+        {
+            "title" : "Android Quick Dive",
+            "description" : "Будут рассмотрены основные концепции разработки под Android. Вы узнаете, как начать разрабатывать под Android – от создания приложения до публикации и монетизации. Частично будет рассмотрена информация об истории платформы, виртуальной машине Далвика, компонентах ядра, концептах UI, а также GCM. Данный доклад разработан с оглядкой на начинающих разработчиков.",
+            "auditorium" : "301",
+            "time" : "10:55 – 11:30",
+            "person" : {
+                "name" : "Дмитрий Лукашев",
+                "photo" : "https://sites.google.com/a/gdgomsk.org/site/schedule/Dmitry%20Lukashev.jpg",
+                "info" : "Android разработчик в компании Yota. Живет в Санкт-Петербурге. До прихода в Yota в 2009 году работал в Motorola в течение шести лет, где начал работать с Android в конце 2007. В свободное время Дмитрий создал несколько проектов на Android. Среди них такое, как Amberfog."
+            }
+        },
+        {
+            "title" : "Chrome Apps & Extensions. А оно нам надо?",
+            "description" : "Пользователи любят расширения и приложения для браузеров. Они позволяют восполнить функционал, по тем или иным причинам не реализованный в Chrome. Расширения помогают им в работе, учебе и отдыхе. Но что это дает разработчикам? Зачем разработчикам создавать свои творения? Ради денег или каких-то иных благ? Поговорим об этом.",
+            "auditorium" : "315",
+            "time" : "10:55 – 11:30",
+            "person" : {
+                "name" : "Тимур Гаскаров",
+                "photo" : "https://sites.google.com/a/gdgomsk.org/site/schedule/Timur%20Gaskarov.jpg",
+                "info" : "Соорганизатор GDG Ufa.<br>Основатель сообщества Хром.РФ (<a href=\"http://my-chrome.ru/\">http://my-chrome.ru/</a>).<br>Ведущий участник (Top contributor) форума техподдержки Google Chrome."
+            }
+        },
+        {
+            "title" : "Монетизация проекта на примере, и как получать деньги от Google по-новому",
+            "description" : "В данном докладе будет представлена история успеха программы MySettings, будут описаны все способы монетизации, которые были испробованы, их плюсы и минусы. Также будет рассказано о том, как получать деньги от Google по новым правилам, вступившим с 1 октября. Данный доклад будет полезен как для начинающих, так и для опытных разработчиков.",
+            "auditorium" : "301",
+            "time" : "11:35 – 12:10",
+            "person" : {
+                "name" : "Максим Юдин",
+                "photo" : "https://sites.google.com/a/gdgomsk.org/site/schedule/Maxim%20Udin.jpeg",
+                "info" : "Ведущий разработчик мобильного приложения под платформу Android в компании Ozon.ru. Также разрабатываю собственные продукты под маркой JQ Soft. Имею опыт разработки под Android с 2007 года."
+            }
+        },
+        {
+            "title" : "App Engine Quick Dive",
+            "description" : "Будут рассмотрены основные отличия Google App Engine от обычного хостинга, небольшое сравнение с конкурентами, поверхностный обзор сервисов, возможностей и ограничений. Будут представлены примеры приложений на GAE, а также во время сессии будет разработано небольшое веб-приложение, которое будет загружено на App Engine. Эта сессия в основном предназначена для тех, кто хочет ознакомиться с Google App Engine.",
+            "auditorium" : "315",
+            "time" : "11:35 – 12:10",
+            "person" : {
+                "name" : "Туран Рустамли",
+                "photo" : "https://sites.google.com/a/gdgomsk.org/site/schedule/Turan%20Rustamli.jpg",
+                "info" : "Участвовал в разработке множества передовых веб-приложений в Optimax Software (Великобритания), для разработки которых применялись такие технологии как Google App Engine, GWT, HTML5, Chrome Extension APIs, AngularJS и др. Участник GDG Baku, ко-огранизатор GDG Edinburgh. Подробнее: <a href=\"http://rustam.li\">http://rustam.li</a>"
+            }
+        },
+        {
+            "title" : "Using HTML5 to conquer every device in the world, from phones to TVs",
+            "description" : "I'll explain why HTML5 is not only the coolest but the only practical choice for true multi-device development, then do an overview of the engines and feature support of lesser known development targets for HTML5 and JavaScript apps such as mobiles and Smart TVs. I'll finish by exploring what kind of tools developers need to remain productive in such cross-platform environments.",
+            "auditorium" : "315",
+            "time" : "13:00 – 13:35",
+            "person" : {
+                "name" : "Sylvain Zimmer",
+                "photo" : "https://sites.google.com/a/gdgomsk.org/site/schedule/Sylvain%20Zimmer.jpg",
+                "info" : "После того как в 2004 основал открытое музыкальное онлайн-сообщество Jamendo (<a href=\"http://www.jamendo.com\">http://www.jamendo.com</a>), где был CTO семь лет, переехал в Париж и занялся организацией таких эвентов, как TEDxParis, ParisHackers and dotJS. В настоящее время – сооснователь и CTO компании Joshfire, которая занимается предоставлением инструментов разработки кросс-девайс HTML5 apps."
+            }
+        },
+        {
+            "title" : "Разработка API для моб. приложений на App Engine",
+            "description" : "Будут рассмотрены различные способовы разработки API на Google App Engine, например, такие как JAX-RS: Jersey, RESTEasy, HTMLEasy, RESTlet, GAE Endpoints, а также сравнение этих способов. Будут представлены примеры из различных проектов и различные ситуации с которыми мы сталкивались в Optimax Software разрабатывая наши приложения. Данная тема будет интересна как для Android-разработчиков, так и для frontend-разработчиков (HTML5, Chrome Apps & Extensions).",
+            "auditorium" : "301",
+            "time" : "13:45 – 14:20",
+            "person" : {
+                "name" : "Туран Рустамли",
+                "photo" : "https://sites.google.com/a/gdgomsk.org/site/schedule/Turan%20Rustamli.jpg",
+                "info" : "Участвовал в разработке множества передовых веб-приложений в Optimax Software (Великобритания), для разработки которых применялись такие технологии как Google App Engine, GWT, HTML5, Chrome Extension APIs, AngularJS и др. Участник GDG Baku, ко-огранизатор GDG Edinburgh. Подробнее: <a href=\"http://rustam.li\">http://rustam.li</a>"
+            }
+        },
+        {
+            "title" : "Подводные камни при разработке приложений для Google Chrome",
+            "description" : "Приложения в Google Chrome - это не просто ссылки на сайты, а мощная развивающаяся платформа с удобным API. Я расскажу про основные ошибки при разработке и отладке приложений для Chrome, о возможностях, про которые не всегда помнят, а также несколько историй продвижения и сбора статистики при разработке. Данный доклад направлен на начинающих разработчиков расширений для Chrome.",
+            "auditorium" : "315",
+            "time" : "13:45 – 14:20",
+            "person" : {
+                "name" : "Дмитрий Сорин",
+                "photo" : "https://sites.google.com/a/gdgomsk.org/site/schedule/Dmitry%20Sorin.jpg",
+                "info" : "JavaScript разработчик в компании Яндекс. Занимаюсь разработкой расширений для популярных браузеров."
+            }
+        },
+        {
+            "title" : "Android: Make Your App Social",
+            "description" : "Социальные сети играют ключевую роль в жизни современного человека. Мы поговорим об интеграции Android-приложения с такими социальными с сетями как G+, Facebook, vk.vom, Instagram, Twitter. Будут рассмотрены работа с OAuth2, управление аккаунтами Andoid, использование свободных библиотек и создание собственной библиотеки расширения.",
+            "auditorium" : "301",
+            "time" : "14:25 – 15:00",
+            "person" : {
+                "name" : "Дмитрий Лукашев",
+                "photo" : "https://sites.google.com/a/gdgomsk.org/site/schedule/Dmitry%20Lukashev.jpg",
+                "info" : "Android разработчик в компании Yota. Живет в Санкт-Петербурге. До прихода в Yota в 2009 году работал в Motorola в течение шести лет, где начал работать с Android в конце 2007. В свободное время Дмитрий создал несколько проектов на Android. Среди них такое, как Amberfog."
+            }
+        },
+        {
+            "title" : "Google Apps Script для бизнеса",
+            "description" : "Данный доклад описывает применение Google Apps Script в корпоративной среде. Будет рассказано о том, как автоматизировать бизнес-процессы в облаке с помощью Google Apps Script, представлены выявленные практикой преимущества и недостатки технологии.",
+            "auditorium" : "315",
+            "time" : "14:25 – 15:00",
+            "person" : {
+                "name" : "Алексей Исаченко",
+                "photo" : "https://sites.google.com/a/gdgomsk.org/site/schedule/Alexey%20Isachenko.jpg",
+                "info" : "Координатор московской группы GDG. Является CIO в промышленной компании и специализируется на внедрении облачных технологий Google в enterprise последние два года."
+            }
+        },
+        {
+            "title" : "Ignite",
+            "description" : "У вас есть замечательная возможность не только посетить это замечательное событие, но и стать докладчиком — в программу конференции включена серия докладов Ignite.</br></br>Ignite — это новый и очень интересный формат докладов, который еще никогда не проводился в Омске: несколько выступлений за небольшой промежуток времени (одно выступление 5-10 минут). Узнать подробней, что такое Ignite можно посмотрев видео с Google I/O <a href=\"https://www.google.com/events/io/2010/sessions/ignite-google-io.html\">тут</a> или <a href=\"https://www.youtube.com/watch?v=u2pnD2ZsEYs\">тут</a>, или почитать статью в <a href=\"http://en.wikipedia.org/wiki/Ignite_(event)\">Wikipedia</a>.</br></br>Если вы хотите поделиться своей историей успеха, интересной идеей, найти людей, которым близки ваши мысли или просто рассказать о том, как вы нетривиально решили какую-либо задачу, обязательно приходите на конференцию и участвуйте в Ignite.</br></br>Единственные требования к докладу: это его краткость, интересность и связь с технологиями Google.</br></br>Ждем писем с вашими заявками на почтовый ящик: <a href=\"mailto:devfest12@gdgomsk.org\">devfest12@gdgomsk.org</a>.<br>Мы вам обязательно поможем подготовить замечательный доклад.",
+            "auditorium" : "301",
+            "time" : "15:10 – 16:10"
+        },
+        {
+            "title" : "Office Hours",
+            "description" : "Office Hours &ndash; это отличная возможность получить помощь эксперта по какой-либо технологии или продукту в неформальной, дружелюбной обстановке. Это отличное место, чтобы задать вопросы, поделиться кодом, добиться лучшего понимания того, как использовать определенный продукт, а также познакомиться с новыми людьми.",
+            "time" : "10:55 – 12:10<br>13:00 - 15:00"
+        }
+    ]
+}

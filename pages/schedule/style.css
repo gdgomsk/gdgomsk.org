@@ -1,0 +1,67 @@
+hr {
+    clear: both;
+    border: none;
+    border-top: 1px solid #EEE;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.information {
+    float:left;
+    width:75%
+}
+
+.information h1 {
+    font-size: 20px;
+    color: #3b81f1;
+    padding-right: 15px;
+    margin-top: 0;
+}
+
+.information p {
+    padding: 0 15px 0 0;
+}
+
+.meta {
+    float:left;
+    width:25%
+}
+
+.meta p {
+    line-height: 20px;
+}
+
+.report {
+    margin-bottom: 10px;
+}
+
+.reporter {
+    border-top:1px solid #eee;
+    padding-top:10px;
+    margin-right: 15px;
+}
+
+.photo {
+    text-align:center;
+    width:18%;
+    float:left;
+}
+
+.photo h2 {
+    font-size:14px;
+}
+
+.reporter .info {
+    float: left;
+    width: 75%;
+    background: #eee;
+    border-radius: 4px;
+    margin-left: 20px;
+}
+
+.reporter .info p {
+    padding: 15px;
+    margin-right: 10px;
+}

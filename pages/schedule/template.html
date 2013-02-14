@@ -1,0 +1,28 @@
+﻿{% for report in reports %}
+<div class="report">
+    <div class="information">
+        <h1>{{report.title}}</h1>
+        <p>{{report.description}}</p>
+        {%- if report.person -%}
+            <div class="reporter">
+                <div class="photo">
+                    <img height="100" src="{{report.person.photo}}" width="100">
+                    <h2>{{report.person.name}}</h2>
+                </div>
+                <div class="info">
+                    <p>{{report.person.info}}</p>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        {% endif %}
+    </div>
+    <div class="meta">
+        {% if report.auditorium %}
+        <p><b>Аудитория:</b><br> {{report.auditorium}}</p>
+        {% endif %}
+        <p><b>Время (GMT+07:00):</b><br> {{report.time}}</p>
+    </div>
+    <div class="clearfix"></div>
+</div>
+{% if not loop.last %} <hr> {% endif %}
+{% endfor %}
