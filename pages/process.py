@@ -14,7 +14,7 @@ if folder != '':
     with open(folder + '/data.json') as data_file:
         data = json.load(data_file)
 
-    template = Template(template)
+    template = Template(template.decode('utf-8'))
     template = template.render(data)
 
     p = Pynliner()
