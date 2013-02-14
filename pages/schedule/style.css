@@ -1,7 +1,3 @@
-a {
-    color: #808080;
-}
-
 hr {
     clear: both;
     border: none;
@@ -39,20 +35,17 @@ hr {
 
 .meta a {
     display: block;
-    line-height: 36px;
-    padding-left: 40px;
+    line-height: 35px;
     margin-bottom: 10px;
     color: #808080;
+    overflow: hidden;
+    height: 36px;
+    vertical-align: top;
 }
 
-.slides {
-    background: url(https://sites.google.com/a/gdgomsk.org/site/icons-sprite.png) 0 -35px no-repeat;
-    background-size: 36px;
-}
-
-.video {
-    background: url(https://sites.google.com/a/gdgomsk.org/site/icons-sprite.png) no-repeat;
-    background-size: 36px;
+.meta a img {
+    padding: 0 5px 0 0;
+    border: none;
 }
 
 .report {
