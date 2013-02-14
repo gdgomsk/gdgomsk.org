@@ -21,6 +21,12 @@
         <p><b>Аудитория:</b><br> {{report.auditorium}}</p>
         {% endif %}
         <p><b>Время (GMT+07:00):</b><br> {{report.time}}</p>
+        {% if report.video %}
+            <a href="{{report.video}}" class="video">Посмотреть доклад</a>
+        {% endif %}
+        {% if report.slides %}
+            <a href="{{report.slides}}" class="slides">Презентация</a>
+        {% endif %}
     </div>
     <div class="clearfix"></div>
 </div>
