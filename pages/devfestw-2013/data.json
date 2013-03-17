@@ -1,0 +1,51 @@
+{
+    "reports" : [
+        {
+            "title"     : "Регистрация участников",
+            "start_time" : "11-30",
+            "end_time"  : "12-00"
+        },
+        {
+            "title"     : "Android в мире мобильных платформ",
+            "author"    : "Ольга Конорева",
+            "start_time" : "12-00",
+            "end_time"  : "12-30",
+            "slides"    : "https://docs.google.com/file/d/0B5dtaKC0I86Ua1B1M3d2clJfckE/edit?usp=sharing",
+            "video"     : "http://www.youtube.com/watch?v=bm94v1IOiBc&list=PLFThqr9LTZLY0OswpvXUMJPROKScui9uD"
+        },
+        {
+            "title"     : "Автоматизированные тесты для Android",
+            "author"    : "Юлия Миттова",
+            "start_time" : "12-30",
+            "end_time"  : "13-00",
+            "slides"    : "https://docs.google.com/file/d/0BzDlQCw44XA6TU9JWURSMGlsYUk/edit?usp=sharing"
+        },
+        {
+            "title"     : "Прототипирование интерфейсов",
+            "author"    : "Вера Колотюк",
+            "start_time" : "13-00",
+            "end_time"  : "13-30",
+            "slides"    : "https://docs.google.com/file/d/0BzDlQCw44XA6N2RTQXh3MkZ3VGc/edit?usp=sharing",
+            "video"     : "http://www.youtube.com/watch?v=Rsp2udOdwpE&list=PLFThqr9LTZLY0OswpvXUMJPROKScui9uD"
+        },
+        {
+            "title"     : "Видеомост с GDG Kyoto",
+            "start_time" : "13-30",
+            "end_time"  : "14-00"
+        },
+        {
+            "title"     : "Карьера девушек в IT",
+            "author"    : "Анна Тарасенко",
+            "start_time" : "14-00",
+            "end_time"  : "14-30",
+            "video"     : "http://www.youtube.com/watch?v=MLy-q1KBob4&list=PLFThqr9LTZLY0OswpvXUMJPROKScui9uD"
+        },
+        {
+            "title"     : "Стипендии, конкурсы от Google",
+            "author"    : "Екатерина Пендер",
+            "start_time" : "14-30",
+            "end_time"  : "15-00",
+            "slides"    : "https://docs.google.com/file/d/0BzDlQCw44XA6NkFZQVJBRVNlbkk/edit?usp=sharing"
+        }
+    ]
+}

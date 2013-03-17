@@ -1,0 +1,30 @@
+<table class="reports">
+    <tr>
+        <th>Начало</th>
+        <th>Окончаниe</th>
+        <th></th>
+        <th></th>
+    </tr>
+    <tr class="break"><td colspan="4"></td></tr>
+    {% for report in reports %}
+    <tr>
+        <td class="time">{{report.start_time}}</td>
+        <td class="time">{{report.end_time}}</td>
+        <td class="report-information">
+            <h1>{{report.title}}</h1>
+            {% if report.author %}
+            <h2>{{report.author}}</h2>
+            {% endif %}
+        </td>
+        <td class="visuals">
+            {% if report.video %}
+            <a href="{{report.video}}"><img src="https://sites.google.com/a/gdgomsk.org/site/icons-youtube.png" alt="" title="Посмотреть доклад" width="36"></a>
+            {% endif %}
+            {% if report.slides %}
+            <a href="{{report.slides}}"><img src="https://sites.google.com/a/gdgomsk.org/site/icons-pdf.png" alt="" title="Презентация" width="36"></a>
+            {% endif %}
+        </td>
+    </tr>
+    {% if not loop.last %} <tr class="break"><td colspan="4"></td></tr> {% endif %}
+    {% endfor %}
+</table>
