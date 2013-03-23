@@ -18,7 +18,8 @@
             "author"    : "Юлия Миттова",
             "start_time" : "12-30",
             "end_time"  : "13-00",
-            "slides"    : "https://docs.google.com/file/d/0BzDlQCw44XA6TU9JWURSMGlsYUk/edit?usp=sharing"
+            "slides"    : "https://docs.google.com/file/d/0BzDlQCw44XA6TU9JWURSMGlsYUk/edit?usp=sharing",
+            "video"     : "https://www.youtube.com/watch?v=aY6fJJIwgr4&list=PLFThqr9LTZLY0OswpvXUMJPROKScui9uD"
         },
         {
             "title"     : "Прототипирование интерфейсов",
