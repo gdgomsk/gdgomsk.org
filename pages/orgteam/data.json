@@ -103,6 +103,22 @@
                     "url" : "http://www.linkedin.com/in/jastkand"
                 }
             ]
+        },
+        {
+            "photo": "https://sites.google.com/a/gdgomsk.org/site/EkaterinaPender.jpg",
+            "name": "Екатерина Пендер",
+            "position": "Организатор",
+            "information": "Я хочу изучать новые технологии Google, организовывать GDG-мероприятия и знакомиться с интересными людьми.",
+            "links": [
+                {
+                    "title":"G+",
+                    "url":"https://plus.google.com/109261224216765187591"
+                },
+                {
+                    "title":"VK",
+                    "url":"http://vk.com/id5824956"
+                }
+            ]
         }
     ]
 }
