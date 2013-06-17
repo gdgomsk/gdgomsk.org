@@ -4,7 +4,7 @@
             "photo": "https://sites.google.com/a/gdgomsk.org/site/home/org-team/AlexKorovyansky.jpg",
             "name": "Алексей Коровянский",
             "position": "Основатель и Лидер",
-            "information": "Мне интересны технологии Google, точнее те возможности, которые они бесплатно предаставляют \"людям, умеющим писать код\".<br><br>Организаторская деятельность в GDG Omsk - это практически безграничное пространство для творчества и самореализации в рамках моих профессиональных и личных интересов!",
+            "information": "Мне интересны технологии Google, точнее те возможности, которые они бесплатно предоставляют «людям, умеющим писать код».<br><br>Организаторская деятельность в GDG Omsk — это практически безграничное пространство для творчества и самореализации в рамках моих профессиональных и личных интересов!",
             "links": [
                 {
                     "title":"G+",
@@ -41,22 +41,6 @@
                 {
                     "title":"VK",
                     "url":"http://vk.com/pan_kapustka1"
-                }
-            ]
-        },
-        {
-            "photo": "https://sites.google.com/a/gdgomsk.org/site/home/org-team/KonstantinDravolin.jpg",
-            "name": "Константин Драволин",
-            "position": "Специалист по техническому обеспечению",
-            "information": "Я участвую в Org.Team потому, что мне нравится участвовать в развитии GDG Omsk, изучать и работать с новыми технологиями и общаться с интересными людьми.",
-            "links": [
-                {
-                    "title":"G+",
-                    "url":"https://plus.google.com/110048547693630070186/posts"
-                },
-                {
-                    "title":"Twitter",
-                    "url":"http://vk.com/zak_dk"
                 }
             ]
         },
@@ -119,6 +103,23 @@
                     "url":"http://vk.com/id5824956"
                 }
             ]
+        },
+        {
+            "photo": "https://sites.google.com/a/gdgomsk.org/site/home/org-team/KonstantinDravolin.jpg",
+            "name": "Константин Драволин",
+            "position": "Специалист по техническому обеспечению",
+            "information": "Я участвую в Org.Team потому, что мне нравится участвовать в развитии GDG Omsk, изучать и работать с новыми технологиями и общаться с интересными людьми.",
+            "links": [
+                {
+                    "title":"G+",
+                    "url":"https://plus.google.com/110048547693630070186/posts"
+                },
+                {
+                    "title":"Twitter",
+                    "url":"http://vk.com/zak_dk"
+                }
+            ]
         }
+        
     ]
 }
