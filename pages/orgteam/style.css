@@ -6,6 +6,8 @@
 .team-member {
     font-family: Tahoma, Arial, serif;
     margin-bottom: 30px;
+    margin-top: 2px;
+    margin-left: 2px;
 }
 
 .team-member a {
