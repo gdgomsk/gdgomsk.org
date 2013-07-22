@@ -119,7 +119,35 @@
                     "url":"http://vk.com/zak_dk"
                 }
             ]
+        },
+        {
+            "photo": "https://sites.google.com/a/gdgomsk.org/site/vitalina.jpg",
+            "name": "Виталина Дрозд",
+            "position": "Журналист",
+            "information": "Считаю, что о событиях в сфере IT надо рассказывать как в тематических блогах, так и на страницах изданий для широкого круга читателей.",
+            "links": [
+                {
+                    "title":"G+",
+                    "url":"https://plus.google.com/114702521941771930220/posts"
+                },
+                {
+                    "title":"Twitter",
+                    "url":"https://twitter.com/Angry_Drozd"
+                },
+                {
+                    "title" : "LinkedIn",
+                    "url" : "http://www.linkedin.com/profile/view?id=187601355"
+                },
+                {
+                    "title":"VK",
+                    "url":"http://vk.com/vitalinadrozd"
+                },
+                {
+                    "title" : "ЖЖ",
+                    "url" : "http://lublu-vydumyvat.livejournal.com/"
+                }
+            ]
         }
-        
+
     ]
 }
