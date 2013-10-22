@@ -1,0 +1,26 @@
+<div class="reports">
+    {% for report in reports %}
+    <div class="report">
+        <span class="time">{{report.start_time}} – {{report.end_time}}</span>
+
+        <div class="report-container" style="border-color: {{report.color}} !important;">
+            <h1 class="report-title">
+                {{report.title}}
+
+                {% if report.author %}
+                <span class="author">({{report.author}})</span>
+                {% endif %}
+
+                {% if report.place %}
+                <small>{{report.place}}</small>
+                {% endif %}
+            </h1>
+            {% if report.content %}
+            <div class="report-content">
+                {{report.content}}
+            </div>
+            {% endif %}
+        </div>
+    </div>
+    {% endfor %}
+</div>

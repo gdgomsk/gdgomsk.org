@@ -1,0 +1,93 @@
+{
+  "reports" : [
+    {
+      "title"     : "Регистрация участников",
+      "start_time" : "10:00",
+      "end_time"  : "10:45",
+      "color"     : "#c7c7c7"
+    },
+    {
+      "title"     : "Краткий рассказ о сообществе, его целях, его свершениях за год",
+      "start_time" : "10:45",
+      "end_time"  : "11:00",
+      "color"     : "#c7c7c7",
+      "place"     : "301 аудитория"
+    },
+    {
+      "title"     : "Google AdMob Ads Overview / Android AdMob Codelabs",
+      "author"    : "Кунал Верма",
+      "start_time" : "11:00",
+      "end_time"  : "11:45",
+      "color"     : "#cc0000",
+      "place"     : "301 аудитория"
+    },
+    {
+      "title"     : "Google Maps с начала времен",
+      "author"    : "Алексей Зиновьев",
+      "start_time" : "11:45",
+      "end_time"  : "12:30",
+      "color"     : "#3366cc",
+      "place"     : "301 аудитория"
+    },
+    {
+      "title"     : "Wearable Accessories and Fusion Sensors in Android Based Dongles",
+      "author"    : "Дэн Ромеску",
+      "start_time" : "12:30",
+      "end_time"  : "13:15",
+      "color"     : "#99cc00",
+      "place"     : "301 аудитория"
+    },
+    {
+      "title"     : "Кофе-брейк",
+      "start_time" : "13:15",
+      "end_time"  : "14:30",
+      "color"     : "#c7c7c7",
+      "place"     : "актовый зал"
+    },
+    {
+      "title"     : "Android в Квадрате",
+      "author"    : "Алексей Коровянский",
+      "start_time" : "14:30",
+      "end_time"  : "15:15",
+      "color"     : "#99cc00",
+      "place"     : "301 аудитория"
+    },
+    {
+      "title"     : "AngularJS от Google: разработка на HTML5+Javascript стала еще проще!",
+      "author"    : "Антон Мочалин",
+      "start_time" : "15:15",
+      "end_time"  : "16:00",
+      "color"     : "#3366cc",
+      "place"     : "301 аудитория"
+    },
+    {
+      "title"     : "Кофе-брейк",
+      "start_time" : "16:00",
+      "end_time"  : "16:30",
+      "color"     : "#c7c7c7",
+      "place"     : "актовый зал"
+    },
+    {
+      "title"     : "Google Glass API, опыт использования",
+      "author"    : "Алексей Исаченко",
+      "start_time" : "16:30",
+      "end_time"  : "17:15",
+      "color"     : "#47b7e6",
+      "place"     : "301 аудитория"
+    },
+    {
+      "title"     : "Ignite",
+      "start_time" : "17:15",
+      "end_time"  : "17:55",
+      "color"     : "#ff8800",
+      "place"     : "301 аудитория"
+    },
+    {
+      "title"     : "Заключение",
+      "start_time" : "17:55",
+      "end_time"  : "18:30",
+      "color"     : "#c7c7c7",
+      "place"     : "301 аудитория"
+    }
+  ]
+}
