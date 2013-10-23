@@ -1,3 +1,6 @@
+<h1 class="header">Программа мероприятия <small>(программа не окончательная, будет пополняться)</small></h1>
+<hr>
+<h1 class="sub-header">День 1 <small>(суббота, 2 ноября)</small></h1>
 <div class="reports">
     {% for report in reports %}
     <div class="report">
@@ -18,6 +21,34 @@
             {% if report.content %}
             <div class="report-content">
                 {{report.content}}
+            </div>
+            {% endif %}
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+<h1 class="sub-header">День 2 <small>(воскресенье, 3 ноября)</small></h1>
+<div class="barcamps">
+    {% for barcamp in barcamps %}
+    <div class="barcamp">
+        <span class="time">{{barcamp.start_time}} – {{barcamp.end_time}}</span>
+
+        <div class="barcamp-container" style="border-color: {{barcamp.color}} !important;">
+            <h1 class="barcamp-title">
+                {{barcamp.title}}
+
+                {% if barcamp.author %}
+                <span class="author">({{barcamp.author}})</span>
+                {% endif %}
+
+                {% if barcamp.place %}
+                <small>{{barcamp.place}}</small>
+                {% endif %}
+            </h1>
+            {% if barcamp.content %}
+            <div class="barcamp-content">
+                {{barcamp.content}}
             </div>
             {% endif %}
         </div>
