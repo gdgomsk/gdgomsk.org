@@ -30,27 +30,31 @@
 
 <h1 class="sub-header">День 2 <small>(воскресенье, 3 ноября)</small></h1>
 <div class="barcamps">
-    {% for barcamp in barcamps %}
-    <div class="barcamp">
-        <span class="time">{{barcamp.start_time}} – {{barcamp.end_time}}</span>
+    {% for barcampSection in barcamps %}
+    <div class="barcamp-section">
+        <span class="time">{{barcampSection.start_time}} – {{barcampSection.end_time}}</span>
 
-        <div class="barcamp-container" style="border-color: {{barcamp.color}} !important;">
-            <h1 class="barcamp-title">
-                {{barcamp.title}}
+        <div class="barcamp-container section-{{barcampSection.camps|length}}">
+            {% for barcamp in barcampSection.camps %}
+            <div class="barcamp-item" style="border-color: {{barcamp.color}} !important;">
+                <h1 class="barcamp-title">
+                    {{barcamp.title}}
 
-                {% if barcamp.author %}
-                <span class="author">({{barcamp.author}})</span>
+                    {% if barcamp.author %}
+                    <span class="author">({{barcamp.author}})</span>
+                    {% endif %}
+
+                    {% if barcamp.place %}
+                    <small>{{barcamp.place}}</small>
+                    {% endif %}
+                </h1>
+                {% if barcamp.content %}
+                <div class="barcamp-content">
+                    {{barcamp.content}}
+                </div>
                 {% endif %}
-
-                {% if barcamp.place %}
-                <small>{{barcamp.place}}</small>
-                {% endif %}
-            </h1>
-            {% if barcamp.content %}
-            <div class="barcamp-content">
-                {{barcamp.content}}
             </div>
-            {% endif %}
+            {% endfor %}
         </div>
     </div>
     {% endfor %}

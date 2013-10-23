@@ -18,11 +18,13 @@
     font-weight: normal;
 }
 
-.reports {
+.reports,
+.barcamps {
     font-family: Helvetica, Arial, sans-serif;
 }
 
-.reports .report {
+.reports .report,
+.barcamp-section {
     background: rgba(157, 157, 157, 0.06);
     border: 1px solid #ccc;
     border-radius: 3px;
@@ -30,7 +32,8 @@
     position: relative;
 }
 
-.reports .time {
+.reports .time,
+.barcamp-section .time {
     position: absolute;
     right: 0;
     height: 20px;
@@ -53,20 +56,50 @@
     box-shadow: -1px 1px 2px #ccc;
 }
 
+.barcamp-container {
+    text-align: justify;
+}
+
+.barcamp-container.section-1 .barcamp-item {
+    margin: 28px 17px 13px;
+    border: 1px solid #c7c7c7;
+    border-top: 7px solid #c7c7c7;
+    padding: 13px;
+    background: #fff;
+    box-shadow: -1px 1px 2px #ccc;
+}
+
+.barcamp-container.section-3 .barcamp-item {
+    margin: 28px 17px 13px;
+    border: 1px solid #c7c7c7;
+    border-top: 7px solid #c7c7c7;
+    padding: 13px;
+    background: #fff;
+    box-shadow: -1px 1px 2px #ccc;
+    display: inline-block;
+    vertical-align: top;
+    height: 150px;
+    width: 212px;
+}
+
+.barcamp-item h1,
 .reports .report-container h1 {
     padding: 0;
     margin: 0;
     font-size: 22px;
     color: #3d3d3d;
     font-weight: normal;
+    text-align: left;
 }
 
+.barcamp-item h1 .author,
 .reports .report-container h1 .author {
     font-size: 16px;
     color: #666666;
     /*color: #333;*/
 }
 
+.barcamp-item h1 small,
 .reports .report-container h1 small {
     padding-top: 4px;
     display: block;
