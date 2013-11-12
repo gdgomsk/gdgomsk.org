@@ -15,6 +15,7 @@
     },
     {
       "title"     : "Google AdMob Ads Overview / Android AdMob Codelabs",
+      "url"       : "google-admob-ads-overview-android-admob-codelabs",
       "author"    : "Кунал Верма",
       "start_time" : "11:00",
       "end_time"  : "11:45",
@@ -23,6 +24,7 @@
     },
     {
       "title"     : "Google Maps с начала времен",
+      "url"       : "google-maps-from-the-beginning",
       "author"    : "Алексей Зиновьев",
       "start_time" : "11:45",
       "end_time"  : "12:30",
@@ -31,6 +33,7 @@
     },
     {
       "title"     : "Wearable Accessories and Fusion Sensors in Android Based Dongles",
+      "url"       : "wearable-accessories-and-fusion-sensors-in-android-based-dongles",
       "author"    : "Дэн Ромеску",
       "start_time" : "12:30",
       "end_time"  : "13:15",
@@ -46,6 +49,7 @@
     },
     {
       "title"     : "Android в Квадрате",
+      "url"       : "magic-of-android",
       "author"    : "Алексей Коровянский",
       "start_time" : "14:30",
       "end_time"  : "15:15",
@@ -54,6 +58,7 @@
     },
     {
       "title"     : "AngularJS от Google: разработка на HTML5+Javascript стала еще проще!",
+      "url"       : "angularjs-easy-way-for-html5-development",
       "author"    : "Антон Мочалин",
       "start_time" : "15:15",
       "end_time"  : "16:00",
@@ -69,6 +74,7 @@
     },
     {
       "title"     : "Google Glass API, опыт использования",
+      "url"       : "google-glass-api",
       "author"    : "Алексей Исаченко",
       "start_time" : "16:30",
       "end_time"  : "17:15",
@@ -108,13 +114,15 @@
       "camps"     : [
         {
           "title"     : "Мастер-класс по Android",
-          "author"    : "Денис Нелюбин",
+          "url"       : "android-development-training",
+          "author"    : "Денис Нелюбин",
           "color"     : "#99cc00",
           "place"     : "301 аудитория"
         },
         {
           "title"     : "Мастер класс по Chrome-extensions",
-          "author"    : "Яков Лило",
+          "url"       : "chrome-extension-development-training",
+          "author"    : "Яков Лило",
           "color"     : "#3366cc",
           "place"     : "101 аудитория"
         },
@@ -131,13 +139,15 @@
       "camps"     : [
         {
           "title"     : "Мастер-класс по Android",
-          "author"    : "Денис Нелюбин",
+          "url"       : "android-development-training",
+          "author"    : "Денис Нелюбин",
           "color"     : "#99cc00",
           "place"     : "301 аудитория"
         },
         {
           "title"     : "Мастер класс по Chrome-extensions",
-          "author"    : "Яков Лило",
+          "url"       : "chrome-extension-development-training",
+          "author"    : "Яков Лило",
           "color"     : "#3366cc",
           "place"     : "101 аудитория"
         },
@@ -154,13 +164,15 @@
       "camps"     : [
         {
           "title"     : "Мастер-класс по Android",
-          "author"    : "Денис Нелюбин",
+          "url"       : "android-development-training",
+          "author"    : "Денис Нелюбин",
           "color"     : "#99cc00",
           "place"     : "301 аудитория"
         },
         {
           "title"     : "Мастер класс по Chrome-extensions",
-          "author"    : "Яков Лило",
+          "url"       : "chrome-extension-development-training",
+          "author"    : "Яков Лило",
           "color"     : "#3366cc",
           "place"     : "101 аудитория"
         },
@@ -188,13 +200,15 @@
       "camps"     : [
         {
           "title"     : "Мастер-класс по Android",
-          "author"    : "Денис Нелюбин",
+          "url"       : "android-development-training",
+          "author"    : "Денис Нелюбин",
           "color"     : "#99cc00",
           "place"     : "301 аудитория"
         },
         {
           "title"     : "Мастер класс по Chrome-extensions",
-          "author"    : "Яков Лило",
+          "url"       : "chrome-extension-development-training",
+          "author"    : "Яков Лило",
           "color"     : "#3366cc",
           "place"     : "101 аудитория"
         },

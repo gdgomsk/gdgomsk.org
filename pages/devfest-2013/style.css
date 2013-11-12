@@ -47,6 +47,10 @@
     background: #4D4D4D;
 }
 
+.hoverable {
+    /*text-decoration: none;*/
+}
+
 .reports .report-container {
     margin: 28px 17px 13px;
     border: 1px solid #c7c7c7;
@@ -54,6 +58,7 @@
     padding: 13px;
     background: #fff;
     box-shadow: -1px 1px 2px #ccc;
+    display: block;
 }
 
 .barcamp-container {

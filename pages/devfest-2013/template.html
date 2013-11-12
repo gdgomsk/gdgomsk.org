@@ -1,4 +1,4 @@
-<h1 class="header">Программа мероприятия <small>(программа не окончательная, будет пополняться)</small></h1>
+<h1 class="header">Программа мероприятия</h1>
 <hr>
 <h1 class="sub-header">День 1 <small>(суббота, 2 ноября)</small></h1>
 <div class="reports">
@@ -7,6 +7,9 @@
         <span class="time">{{report.start_time}} – {{report.end_time}}</span>
 
         <div class="report-container" style="border-color: {{report.color}} !important;">
+            {% if report.url %}
+            <a href="http://www.gdgomsk.org/gdg-devfest-2013/{{report.url}}" class="hoverable">
+            {% endif %}
             <h1 class="report-title">
                 {{report.title}}
 
@@ -18,10 +21,8 @@
                 <small>{{report.place}}</small>
                 {% endif %}
             </h1>
-            {% if report.content %}
-            <div class="report-content">
-                {{report.content}}
-            </div>
+            {% if report.url %}
+            </a>
             {% endif %}
         </div>
     </div>
@@ -37,6 +38,11 @@
         <div class="barcamp-container section-{{barcampSection.camps|length}}">
             {% for barcamp in barcampSection.camps %}
             <div class="barcamp-item" style="border-color: {{barcamp.color}} !important;">
+
+                {% if barcamp.url %}
+                <a href="http://www.gdgomsk.org/gdg-devfest-2013/{{barcamp.url}}" class="hoverable">
+                {% endif %}
+
                 <h1 class="barcamp-title">
                     {{barcamp.title}}
 
@@ -48,6 +54,11 @@
                     <small>{{barcamp.place}}</small>
                     {% endif %}
                 </h1>
+
+                {% if barcamp.url %}
+                </a>
+                {% endif %}
+
                 {% if barcamp.content %}
                 <div class="barcamp-content">
                     {{barcamp.content}}
