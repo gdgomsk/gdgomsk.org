@@ -7,9 +7,16 @@
         <p class="report-content">
             {{report.content}}
         </p>
-        <div class="line"></div>
         {% endif %}
-
+        <div class="links">
+            {% if report.video %}
+            <a class="video" href="{{report.video}}"><img src="http://www.gdgomsk.org/_/rsrc/1360864251102/icons-youtube.png?width=36" style="padding:0 5px 0 0;border:none;" width="36">Посмотреть доклад</a>
+            {% endif %}
+            {% if report.slides %}
+            <a class="slides" href="{{report.slides}}"><img src="http://www.gdgomsk.org/_/rsrc/1360864248901/icons-pdf.png?width=36" style="padding:0 5px 0 0;border:none" width="36">Презентация</a>
+            {% endif %}
+        </div>
+        <div class="line"></div>
 
         <div style="text-align:center;width:18%;float:left">
             <img height="100" src="{{report.photo}}" width="100">

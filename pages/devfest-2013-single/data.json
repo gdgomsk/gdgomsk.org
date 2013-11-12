@@ -52,7 +52,9 @@
       "about"     : "Работает CIO в транспортной компании и специализируется на адаптации бизнес процессов к облачной среде. Основатель русскоязычного сообщества Google Apps (1900+ участников). Лидер группы GDG Moscow. Большой поклонник GAS, регулярно проводит бесплатные тренинги, хакатоны и выступления по этой технологии для всех желающих. Участвует в программе Google Glass Explorer и занимается разработкой ПО под устройство, проводит хакатоны и обучения. На протяжении 4 лет занимается 3D-печатью, 3D-сканированием и сборкой 3D-принтеров.",
       "content"   : "",
       "photo"     : "https://46dd8e9b-a-a3adbce4-s-sites.googlegroups.com/a/gdgomsk.org/site/gdg-devfest-2013/isachenko.jpg",
-      "color"     : "#47b7e6"
+      "color"     : "#47b7e6",
+      "slides"    : "https://docs.google.com/file/d/0BwXbHApLV1SSX2hBRTFMMFY1cnM/edit?usp=drive_web",
+      "video"     : "https://www.youtube.com/watch?v=3UEz1EHDwi4"
     },
     {
       "title"     : "Мастер-класс по Android",
