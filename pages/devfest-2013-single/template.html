@@ -1,0 +1,24 @@
+{% for report in reports %}
+<div class="report">
+    <div class="report-container">
+        <h1 class="report-title" style="border-color: {{report.color}} !important;">{{report.title}}</h1>
+
+        {% if report.content %}
+        <p class="report-content">
+            {{report.content}}
+        </p>
+        <div class="line"></div>
+        {% endif %}
+
+
+        <div style="text-align:center;width:18%;float:left">
+            <img height="100" src="{{report.photo}}" width="100">
+            <span class="author">{{report.author}}</span>
+        </div>
+        <div class="author-about">
+            <p>{{report.about}}</p>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+{% endfor %}
