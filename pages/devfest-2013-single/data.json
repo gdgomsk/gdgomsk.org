@@ -34,6 +34,8 @@
       "about"     : "Эксперт в разработке бизнес-приложений для платформы Android. Автор учебного курса DiveIntoAndroid. Аспирант ОмГУ. Автор мобильной биометрической системы доступа Mb-Lock. Основатель Google Developer Group Omsk",
       "content"   : "В докладе я расскажу про новые магические возможности при разработке Android приложений. Как с их помощью гениально и просто решать типичные и неразрешимые прежде задачи. Почему мир разработки под Android больше не будет прежним и что сегодня важно понимать разработчикам и менеджерам Android-проектов.",
       "photo"     : "https://46dd8e9b-a-a3adbce4-s-sites.googlegroups.com/a/gdgomsk.org/site/gdg-devfest-2013/AlexKorovyansky.jpg",
+      "slides"     : "http://alexkorovyansky.com/android-in-square-slides",
+      "video"     : "https://www.youtube.com/watch?v=Ep2ncFQY6og",
       "color"     : "#99cc00"
     },
     {
